@@ -1,74 +1,7 @@
-# AppointDoc
+# Doctor Appointment System
 
 This is a professional-grade MERN (MongoDB, Express, React, Node.js) stack web application for booking doctor appointments. Patients can browse through a list of doctors and their availability and book an appointment with their preferred doctor. Doctors can view their schedule, manage their availability, and approve/cancel appointments.
 
-## Project View
-
-<h4>1. For User Profile<h4/>
-
-- **Homepage**
-<p align="center">
-  <img alt="img-name" src="Images/Homepage from User.png" width="700">
-</p>
-  
-- **Appointment Lists**
-<p align="center">
-  <img alt="img-name" src="Images/Appointment Lists from User Profile.png" width="700">
-</p>
-  
-- **Booking Appointment**
-<p align="center">
-  <img alt="img-name" src="Images/Booking Appointment as User.png" width="700">
-</p>
-  
-- **Apply As Doctor**
-<p align="center">
-  <img alt="img-name" src="Images/User can apply for doctor.png" width="700">
-</p>
-
-- **New Notifications**
-<p align="center">
-  <img alt="img-name" src="Images/Notification Page for New Notifications.png" width="700">
-</p>
-
-- **Read Notifications**
-<p align="center">
-  <img alt="img-name" src="Images/After Read Notification Page.png" width="700">
-</p>
-
-<h4>2. For Doctor Profile<h4/>
-  
-- **Homepage**
-<p align="center">
-  <img alt="img-name" src="Images/Doctor Homepage.png" width="700">
-</p>
-  
-- **Appointment Lists**
-<p align="center">
-  <img alt="img-name" src="Images/Appointment Lists from Doctor Profile.png" width="700">
-</p>
-
-- **Manage Profile**
-<p align="center">
-  <img alt="img-name" src="Images/Manage Doctor Profile.png" width="700">
-</p>
-  
-<h4>3. For Admin Profile<h4/>
-  
-- **Homepage**
-<p align="center">
-  <img alt="img-name" src="Images/Homepage for Admin.png" width="700">
-</p>
-
-- **Doctors List**
-<p align="center">
-  <img alt="img-name" src="Images/Doctor List from admin page.png" width="700">
-</p>
-  
-- **Users List**
-<p align="center">
-  <img alt="img-name" src="Images/Users List from Admin.png" width="700">
-</p>
   
 ## Installation
 
@@ -76,7 +9,7 @@ To set up BloodLife locally, follow these steps:
 
 - Clone the repository:
 
-      git clone https://github.com/OviSarkar62/AppointDoc.git
+      git clone 
       
 - Install the required dependencies for backend:
 
@@ -92,7 +25,7 @@ To set up BloodLife locally, follow these steps:
     
 - Create a .env file in the root directory with the following environment variables:
 
-       DB_URL = mongodb+srv://<user>:<pass>@cluster0.l17quyr.mongodb.net/database
+       DB_URL = mongodb+srv://<user>:<pass>url.mongodb.net/database
 
        JWT_SECRET = A_Secret_Value
   
@@ -131,7 +64,3 @@ To set up BloodLife locally, follow these steps:
 - Node.js - JavaScript runtime environment for building scalable server-side applications
 - JWT - JSON Web Token for user authentication and authorization
 - Bcrypt - Password hashing library for secure password storage
-
-## Live Link
-
-The live project: [AppointDoc](https://appoint-doc.vercel.app/login)
